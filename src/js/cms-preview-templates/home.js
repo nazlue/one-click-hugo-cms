@@ -34,9 +34,12 @@ export default class PostPreview extends React.Component {
                 <p>{product.get("text")}</p>
               </div>)}
             </div>
-
+            <a onClick="onClicktargeting()" className="btn raise">Click Here</a>
+<script>function onClicktargeting(){
+  window.ps.show({ id: 1869 })}</script>
             <div className="tc">
               <a href="#" className="btn raise">See all products</a>
+             
             </div>
           </div>
         </div>
